@@ -1,155 +1,197 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-	<!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1bd21c69f1.js"></script>
     <style>
-        span.mail::after{ content: "tu-braunschweig.de";}
-        span.mail::before{content: "j.krumsieck";}
+        span.mail::after {
+            content: "tu-braunschweig.de";
+        }
+
+        span.mail::before {
+            content: "j.krumsieck";
+        }
     </style>
+
     <title>Jens Krumsieck</title>
 </head>
-<body>
-	<div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarNav">
-            <a class="navbar-brand" href="#">
-                <img src="https://avatars3.githubusercontent.com/u/4296194?s=460&v=4" width="30" class="d-inline-block align-top rounded" alt="">
-                Jens Krumsieck
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#research">Research</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#publications">Publications</a>
-                </li>
-            </ul>        
-        </nav>
-        <br/>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="media">
-                        <img src="https://avatars3.githubusercontent.com/u/4296194?s=460&v=4" alt="..." class="rounded align-self-start mr-3" style="max-width:64px;">
-                        <div class="media-body">
-                            <h5 class="mt-0">Jens Krumsieck</h5>
-                            <p class="small">
-                                Technische Universität Braunschweig<br/>
-                                Institut für Anorganische und Analytische Chemie<br/>
-                                <a href="https://www.tu-braunschweig.de/iaac/personal/broering/mitarbeiter">Arbeitskreis Bröring</a><br/>
-                                Hagenring 30<br/>
-                                38106 Braunschweig<br/>
-                                +49531/391-8430<br/>
-                                <span class="mail">@</span><br/>
-                            </p>
-                        </div>
-                    </div>                    
-                </div>
-                <div class="col-sm-6 small">
-                    ORCID: <a href="http://orcid.org/0000-0001-6242-5846">0000-0001-6242-5846</a><br/>
-                    <a href="https://scholar.google.com/citations?user=_hJ9h1YAAAAJ">Google Scholar</a><br/>
-                    <a href="https://www.researchgate.net/profile/Jens_Krumsieck">
-                        <img src="https://www.researchgate.net/images/public/profile_share_badge.png" alt="..">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <br/>
-        <div class="container">
-            <h4 id="research">Research</h4>
-            <ul>
-                <li>Synthesis and Characterisation of Isoporphyrin-Complexes</li>
-                <li>DFT-Studies on Porphyrinoids</li>
-                <li>Structural Analysis of Porphyrinoids (PorphyStruct)</li>
-                <li>
-                    Development of Chemistry-related Software
-                    <ul>
-                        <li>BluEPRint</li>
-                        <li>CHN-Tool</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
 
-        <br/>
-        <div class="container">
-            <h4 id="projects">Projects</h4>
-			<div class="row">
-                    <!--<div class="col-sm-4">
-                        <div class="card">
-                            <h6 class="card-header">
-                                <img src="https://raw.githubusercontent.com/JensKrumsieck/PorphyStruct/master/PorphyStruct/Resources/porphystructlogo.png" class="card-img-top" alt="..." style="max-width: 48px;">
-                                PorphyStruct (not public)
-                            </h6>
-                            <div class="card-body">
-                                <h6 class="card-title">
-                                    <a href="https://github.com/JensKrumsieck/PorphyStruct/releases">PorphyStruct (not public)</a>
-                                </h6>
-                                <p class="card-text">YOU CAN NOT DOWNLOAD PorphyStruct YET!.</p>
+<body>
+    <div class="container-fluid">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+                <a href="#" class="navbar-brand">
+                    <img src="https://avatars3.githubusercontent.com/u/4296194?s=460&v=4" width="30"
+                        class="d-inline-block align-top rounded-circle" alt="">
+                    Jens Krumsieck
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#research">Research</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#publications">Publications</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="container mt-5 pt-4">
+            <div class="row justify-content-start d-flex rounded">
+                <div class="col-4 bg-dark pt-3">
+                    <img src="https://avatars3.githubusercontent.com/u/4296194?s=460&v=4" class="rounded" alt="..."
+                        style="width:100%;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-dark text-white"><i class="fas fa-pencil-alt"></i> Jens Krumsieck
+                        </li>
+                        <li class="list-group-item bg-dark text-white d-flex">
+                            <i class="fas fa-address-card"></i>
+                            <address style="margin-top: -5px; margin-left: 5px;">
+                                Technische Universität Braunschweig<br />
+                                Institut für Anorganische und Analytische Chemie<br />
+                                <a href="https://www.tu-braunschweig.de/iaac/personal/broering/mitarbeiter">Workgroup
+                                    Bröring</a><br />
+                                Hagenring 30<br />
+                                38106 Braunschweig<br />
+                            </address>
+                        </li>
+                        <li class="list-group-item bg-dark text-white">
+                            <i class="fas fa-phone"></i> +49531/391-8430
+                        </li>
+                        <li class="list-group-item bg-dark text-white">
+                            <i class="fas fa-envelope"></i> <span class="mail">@</span>
+                        </li>
+                        <li class="list-group-item bg-dark text-white text-center">
+                            <a href="https://www.researchgate.net/profile/Jens_Krumsieck"><i
+                                    class="text-white fab fa-researchgate"></i></a>
+                            <a href="https://scholar.google.com/citations?user=_hJ9h1YAAAAJ"><i
+                                    class="text-white fab fa-google"></i></a>
+                        </li>
+                        <li class="list-group-item bg-dark text-white text-center">
+                            ORCID <a href="http://orcid.org/0000-0001-6242-5846"><span
+                                    class="text-white">0000-0001-6242-5846</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-8 pt-3 bg-light">
+                    <div class="container">
+                        <h4 id="research">Research</h4>
+                        <ul>
+                            <li>Synthesis and Characterisation of Isoporphyrin-Complexes</li>
+                            <li>DFT-Studies on Porphyrinoids</li>
+                            <li>Structural Analysis of Porphyrinoids (PorphyStruct)</li>
+                            <li>
+                                Development of Chemistry-related Software
+                                <ul>
+                                    <li>BluEPRint</li>
+                                    <li>CHN-Tool</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container mt-5">
+                        <h4 id="projects">Projects</h4>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card">
+                                    <h6 class="card-header">
+                                        <img src="https://raw.githubusercontent.com/JensKrumsieck/PorphyStruct/master/PorphyStruct/Resources/porphystructlogo.png"
+                                            class="card-img-top" alt="..." style="max-width: 48px;">
+                                        PorphyStruct
+                                    </h6>
+                                    <div class="card-body">
+                                        <h6 class="card-title">
+                                            <a href="#">PorphyStruct</a>
+                                        </h6>
+                                        <p class="card-text">Coming soon.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card">
+                                    <h6 class="card-header">
+                                        <img src="https://raw.githubusercontent.com/JensKrumsieck/BluEPRint2/master/BluEPRint2/Resources/favicon.ico"
+                                            class="card-img-top" alt="..." style="max-width: 48px;">
+                                        BluEPRint
+                                    </h6>
+                                    <div class="card-body">
+                                        <h6 class="card-title"><a
+                                                href="https://github.com/JensKrumsieck/BluEPRint2/releases">BluEPRint</a>
+                                        </h6>
+                                        <p class="card-text">
+                                            BluEPRint is a viewer for Bruker EMX Spectrometer files (.par/.spc) with
+                                            easyspin-Integration.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card">
+                                    <h6 class="card-header">
+                                        <img src="https://raw.githubusercontent.com/JensKrumsieck/CHN-Tool/master/Resources/favicon(1).ico"
+                                            class="card-img-top" alt="..." style="max-width: 48px;">
+                                        CHN-Tool
+                                    </h6>
+                                    <div class="card-body">
+                                        <h6 class="card-title"><a
+                                                href="https://github.com/JensKrumsieck/CHN-Tool/releases">CHN Tool</a>
+                                        </h6>
+                                        <p class="card-text">
+                                            CHN-Tool - Recalculate your elemental analysis (CHN) with impurities.
+                                            C# Rebuild of Jasper CHN Version 2.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>-->
-                <div class="col-sm-4">                    
-                    <div class="card">
-                        <h6 class="card-header">
-                            <img src="https://raw.githubusercontent.com/JensKrumsieck/BluEPRint2/master/BluEPRint2/Resources/favicon.ico" class="card-img-top" alt="..." style="max-width: 48px;">
-                            BluEPRint
-                        </h6>
-                        <div class="card-body">
-                            <h6 class="card-title"><a href="https://github.com/JensKrumsieck/BluEPRint2/releases">BluEPRint</a></h6>
-                            <p class="card-text">
-                                BluEPRint is a viewer for Bruker EMX Spectrometer files (.par/.spc) with easyspin-Integration.
-                            </p>
-                        </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <h6 class="card-header">
-                            <img src="https://raw.githubusercontent.com/JensKrumsieck/CHN-Tool/master/Resources/favicon(1).ico" class="card-img-top" alt="..." style="max-width: 48px;">
-                            CHN-Tool
-                        </h6>
-                        <div class="card-body">
-                            <h6 class="card-title"><a href="https://github.com/JensKrumsieck/CHN-Tool/releases">CHN Tool</a></h6>
-                            <p class="card-text">
-                                CHN-Tool - Recalculate your elemental analysis (CHN) with impurities. 
-                                C# Rebuild of Jasper CHN Version 2.
-                            </p>
+                    <div class="container mt-5">
+                            <h4 id="publications">Publications</h4>
+                            <ol>
+                                <li>
+                                    Metal Assisted One-Pot Synthesis of Isoporphyrin Complexes<br/>
+                                    P. Schweyen, M. Hoffmann, J. Krumsieck, B. Wolfram, X. Xie, M. Bröring,<br/>
+                                    <a href="http://dx.doi.org/10.1002/ange.201604297">Angew. Chem. 2016, 128, 10272-10275</a>
+                                    ; <a href="http://dx.doi.org/10.1002/anie.201604297">Angew. Chem. Int. Ed. 2016, 55, 10118-10121.</a>
+                               </li>
+                            </ol>
+                            <h5>Misc</h5>
+                            <ol>
+                                <li>
+                                    Isoporphyrins – Bioinspired NIR-Dyes<br/>
+                                    Ç. Baş, J. Krumsieck, M. Bröring<br/>
+                                    <a href="https://atlasofscience.org/isoporphyrins-bioinspired-nir-dyes/">Atlas of Science.org/Isoporphyrins-Bioinspired-NIR-Dyes</a>
+                                </li>
+                            </ol>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <br/>
-        <div class="container">
-            <h4 id="publications">Publications</h4>
-            <ol>
-                <li>
-                    Metal Assisted One-Pot Synthesis of Isoporphyrin Complexes<br/>
-                    P. Schweyen, M. Hoffmann, J. Krumsieck, B. Wolfram, X. Xie, M. Bröring,<br/>
-                    <a href="http://dx.doi.org/10.1002/ange.201604297">Angew. Chem. 2016, 128, 10272-10275</a>
-                    ; <a href="http://dx.doi.org/10.1002/anie.201604297">Angew. Chem. Int. Ed. 2016, 55, 10118-10121.</a>
-               </li>
-            </ol>
-            <h5>Misc</h5>
-            <ol>
-                <li>
-                    Isoporphyrins – Bioinspired NIR-Dyes<br/>
-                    Ç. Baş, J. Krumsieck, M. Bröring<br/>
-                    <a href="https://atlasofscience.org/isoporphyrins-bioinspired-nir-dyes/">Atlas of Science.org/Isoporphyrins-Bioinspired-NIR-Dyes</a>
-                </li>
-            </ol>
-        </div>
     </div>
-</body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
