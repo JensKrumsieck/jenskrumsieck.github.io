@@ -1,0 +1,22 @@
+{
+	"dir" : "ltr",
+	"lang" : "English",
+	"name" : "Jens Krumsieck",
+	"scope" : "/",
+	"display" : "standalone",
+	"start_url" : "https://jenskrumsieck.github.io/",
+	"short_name" : "Jens Krumsieck",
+	"theme_color" : "transparent",
+	"description" : "",
+	"orientation" : "any",
+	"background_color" : "transparent",
+	"related_applications" : "",
+	"prefer_related_applications" : "false",
+	"icons" : [
+		{
+			"src": "https://jenskrumsieck.github.io/favicon.ico",
+			"sizes": "16x16 32x32 48x48 64x64 128x128 256x256"
+		}],
+	"screenshots" : [],
+	"generated" : "true"
+}
