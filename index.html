@@ -198,10 +198,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <!--PWA Script-->
         <script>
-            // This is the "Offline page" service worker
-    
+           // This is the service worker with the Advanced caching
+
             // Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-    
+
             // Check compatibility for the browser we're running this in
             if ("serviceWorker" in navigator) {
             if (navigator.serviceWorker.controller) {
@@ -217,7 +217,7 @@
                 });
             }
             }
-    
+
         </script>
 </body>
 </html>
