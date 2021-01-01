@@ -172,8 +172,8 @@
       "mscorlib.dll": "sha256-FWPx51huC\/WJLkKCgoTEa5pzm8+4Aucxg0YuOiuOwkQ=",
       "netstandard.dll": "sha256-2ba2qAAtNUX9Qh5PFXhTMtcD\/Nra\/wyG197\/wrnxElI=",
       "System.Private.CoreLib.dll": "sha256-4wsl1v32v74UB0CTQ6+AdUTdM+9C1VraomgeCjb4Wug=",
-      "ChemSharp.dll": "sha256-HGKeZQN8kFstDkzncY48vSIPkaVJbgvZL2uRu6jp3LY=",
-      "ChemSharp.Molecules.dll": "sha256-X+jOpW8CyasUnN+OnQkKKOJE\/DtNskDBPPbe4JsxDK4=",
+      "ChemSharp.dll": "sha256-x59Pp+o8GhqdKBivTZ1q9L6NY\/6f4MtePX67NfccBwk=",
+      "ChemSharp.Molecules.dll": "sha256-CH22QRu+XvEQUH7l6WHIYmMLWVwRi5uNk4+xP+K9yKo=",
       "MathNet.Numerics.dll": "sha256-VBTZdOEmb7jWXiyi4sL0b3IddvrGUjAPlcsyAnszsNs=",
       "Microsoft.AspNetCore.Components.dll": "sha256-mVncRAA5UYvqcIoKgl\/Xy0F+vjDz25s3KXYo2WWCCMA=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-9drdnZxpYKPIf+qBL7BCs88eqkW+e7eiEng4FVdgUkg=",
@@ -191,7 +191,7 @@
       "Microsoft.JSInterop.dll": "sha256-PsxLxuAZQnnskOEiWpsK6H6G5SM51oX6qlgmie2bedM=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-vKk9KOHougzhyFaVJlH5erwr52K\/i9Gw8flNlecX8Wc=",
       "System.IO.Pipelines.dll": "sha256-3ET+mpR7F058YRj9YaLHOVXBqOW6iUxtIpeiKPYw4PA=",
-      "CHN.Blazor.dll": "sha256-2jxrjEmDchseiudAUoc+7NMPU6tQGYBgWRY7cUeLtQ4="
+      "CHN.Blazor.dll": "sha256-Da05KJ7z7EbsiWCD3pIoil1tPqgzSgJjleRpKyI5KxY="
     },
     "lazyAssembly": null,
     "pdb": null,
